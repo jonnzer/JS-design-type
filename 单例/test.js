@@ -56,13 +56,3 @@ var b = new proxySCreateDiv('svn2')
 
 
 
-/*使用闭包封装私有变量*/
-// var user = (function (){
-//     var _name = 'svn'
-//     var _age = 123
-//     return {
-//         getUserInfo: function () {
-//             return _name + '-'+ _age
-//         }
-//     }
-// })();
